@@ -1,0 +1,43 @@
+// 在 assets/css/main.scss 或 assets/css/main.css 中添加
+.previewable-image {
+    transition: transform 0.2s ease;
+    cursor: zoom-in;
+}
+
+.previewable-image:hover {
+    transform: scale(1.1); /* 略微放大 */
+    z-index: 1000;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.previewable-image:active {
+    transform: scale(1);
+    cursor: zoom-out;
+}
+
+.full-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.full-image.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.full-image img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
