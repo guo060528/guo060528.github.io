@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "ch-weifang"
+locale                   : "zh-CN"
 title                    : "Guo An xin's Personal Homepage"
 title_separator          : "-"
 name                     : &name "GUO"
