@@ -39,5 +39,13 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+body {
+  background-image: url('/assets/images/background-image.jpg'); /* 确保路径正确 */
+  background-size: cover; /* 或者你可以选择 contain, 100% 100% 等 */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* 固定背景图片 */
+  background-position: center center; /* 居中对齐 */
+}
+
 
 
