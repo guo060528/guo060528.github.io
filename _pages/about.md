@@ -1,14 +1,13 @@
 ---
 permalink: /
-title: "关于我"
-excerpt: "关于我"
+title: "About me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-**About me**
 
 永不与“任何人”竞争，包括理想化的自己，也不拿理想化的别人与现实中的自己比较。将理想化的自己作为前进的方向，不断努力即可！不被过去和未来束缚，“课题分离”也是如此，分清楚什么是可以改变的，什么是无法改变的。
 
